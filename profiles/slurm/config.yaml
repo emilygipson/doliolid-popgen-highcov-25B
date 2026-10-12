@@ -1,0 +1,12 @@
+executor: slurm
+use-envmodules: true
+jobs: 250
+latency-wait: 60
+rerun-incomplete: true
+printshellcmds: true
+
+default-resources:
+  slurm_partition: batch
+  slurm_extra: "'--mail-type=FAIL --mail-user=eeg37520@uga.edu'"
+  mem_mb: 40000
+  runtime: 720

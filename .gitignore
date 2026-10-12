@@ -1,0 +1,12 @@
+.snakemake/
+fastqc_raw/
+multiqc_raw/
+fastqc_trimmed/
+multiqc_trimmed/
+logs/
+*.bak
+dag_*
+*.fq.gz
+*.fastq.gz
+*.html
+*.zip
