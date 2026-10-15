@@ -4,6 +4,8 @@ jobs: 250
 latency-wait: 60
 rerun-incomplete: true
 printshellcmds: true
+slurm-keep-successful-logs: true
+slurm-delete-logfiles-older-than: 0
 
 default-resources:
   slurm_partition: batch
